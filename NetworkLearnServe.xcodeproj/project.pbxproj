@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4431950D1CF830CC00F7E248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4431950C1CF830CC00F7E248 /* main.m */; };
+		443195101CF830CC00F7E248 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4431950F1CF830CC00F7E248 /* AppDelegate.m */; };
+		443195131CF830CC00F7E248 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443195121CF830CC00F7E248 /* ViewController.m */; };
+		443195161CF830CC00F7E248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443195141CF830CC00F7E248 /* Main.storyboard */; };
+		443195181CF830CC00F7E248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443195171CF830CC00F7E248 /* Assets.xcassets */; };
+		4431951B1CF830CC00F7E248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443195191CF830CC00F7E248 /* LaunchScreen.storyboard */; };
+		443195261CF830CC00F7E248 /* NetworkLearnServeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443195251CF830CC00F7E248 /* NetworkLearnServeTests.m */; };
+		443195311CF830CC00F7E248 /* NetworkLearnServeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443195301CF830CC00F7E248 /* NetworkLearnServeUITests.m */; };
+		443195401CF8312900F7E248 /* ICENetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4431953F1CF8312900F7E248 /* ICENetWorkManager.m */; };
+		443195451CF8365600F7E248 /* IPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 443195441CF8365600F7E248 /* IPManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		443195221CF830CC00F7E248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 443195001CF830CC00F7E248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443195071CF830CC00F7E248;
+			remoteInfo = NetworkLearnServe;
+		};
+		4431952D1CF830CC00F7E248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 443195001CF830CC00F7E248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443195071CF830CC00F7E248;
+			remoteInfo = NetworkLearnServe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		443195081CF830CC00F7E248 /* NetworkLearnServe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkLearnServe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4431950C1CF830CC00F7E248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4431950E1CF830CC00F7E248 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4431950F1CF830CC00F7E248 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		443195111CF830CC00F7E248 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		443195121CF830CC00F7E248 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		443195151CF830CC00F7E248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		443195171CF830CC00F7E248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4431951A1CF830CC00F7E248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4431951C1CF830CC00F7E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443195211CF830CC00F7E248 /* NetworkLearnServeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLearnServeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		443195251CF830CC00F7E248 /* NetworkLearnServeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkLearnServeTests.m; sourceTree = "<group>"; };
+		443195271CF830CC00F7E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4431952C1CF830CC00F7E248 /* NetworkLearnServeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLearnServeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		443195301CF830CC00F7E248 /* NetworkLearnServeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkLearnServeUITests.m; sourceTree = "<group>"; };
+		443195321CF830CC00F7E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4431953E1CF8312900F7E248 /* ICENetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICENetWorkManager.h; sourceTree = "<group>"; };
+		4431953F1CF8312900F7E248 /* ICENetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICENetWorkManager.m; sourceTree = "<group>"; };
+		443195431CF8365600F7E248 /* IPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPManager.h; sourceTree = "<group>"; };
+		443195441CF8365600F7E248 /* IPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		443195051CF830CC00F7E248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4431951E1CF830CC00F7E248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443195291CF830CC00F7E248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443194FF1CF830CC00F7E248 = {
+			isa = PBXGroup;
+			children = (
+				4431950A1CF830CC00F7E248 /* NetworkLearnServe */,
+				443195241CF830CC00F7E248 /* NetworkLearnServeTests */,
+				4431952F1CF830CC00F7E248 /* NetworkLearnServeUITests */,
+				443195091CF830CC00F7E248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		443195091CF830CC00F7E248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443195081CF830CC00F7E248 /* NetworkLearnServe.app */,
+				443195211CF830CC00F7E248 /* NetworkLearnServeTests.xctest */,
+				4431952C1CF830CC00F7E248 /* NetworkLearnServeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4431950A1CF830CC00F7E248 /* NetworkLearnServe */ = {
+			isa = PBXGroup;
+			children = (
+				4431950E1CF830CC00F7E248 /* AppDelegate.h */,
+				4431950F1CF830CC00F7E248 /* AppDelegate.m */,
+				443195111CF830CC00F7E248 /* ViewController.h */,
+				443195121CF830CC00F7E248 /* ViewController.m */,
+				443195141CF830CC00F7E248 /* Main.storyboard */,
+				443195171CF830CC00F7E248 /* Assets.xcassets */,
+				443195191CF830CC00F7E248 /* LaunchScreen.storyboard */,
+				4431951C1CF830CC00F7E248 /* Info.plist */,
+				4431950B1CF830CC00F7E248 /* Supporting Files */,
+				4431953E1CF8312900F7E248 /* ICENetWorkManager.h */,
+				4431953F1CF8312900F7E248 /* ICENetWorkManager.m */,
+				443195431CF8365600F7E248 /* IPManager.h */,
+				443195441CF8365600F7E248 /* IPManager.m */,
+			);
+			path = NetworkLearnServe;
+			sourceTree = "<group>";
+		};
+		4431950B1CF830CC00F7E248 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4431950C1CF830CC00F7E248 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		443195241CF830CC00F7E248 /* NetworkLearnServeTests */ = {
+			isa = PBXGroup;
+			children = (
+				443195251CF830CC00F7E248 /* NetworkLearnServeTests.m */,
+				443195271CF830CC00F7E248 /* Info.plist */,
+			);
+			path = NetworkLearnServeTests;
+			sourceTree = "<group>";
+		};
+		4431952F1CF830CC00F7E248 /* NetworkLearnServeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				443195301CF830CC00F7E248 /* NetworkLearnServeUITests.m */,
+				443195321CF830CC00F7E248 /* Info.plist */,
+			);
+			path = NetworkLearnServeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		443195071CF830CC00F7E248 /* NetworkLearnServe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443195351CF830CC00F7E248 /* Build configuration list for PBXNativeTarget "NetworkLearnServe" */;
+			buildPhases = (
+				443195041CF830CC00F7E248 /* Sources */,
+				443195051CF830CC00F7E248 /* Frameworks */,
+				443195061CF830CC00F7E248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkLearnServe;
+			productName = NetworkLearnServe;
+			productReference = 443195081CF830CC00F7E248 /* NetworkLearnServe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		443195201CF830CC00F7E248 /* NetworkLearnServeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443195381CF830CC00F7E248 /* Build configuration list for PBXNativeTarget "NetworkLearnServeTests" */;
+			buildPhases = (
+				4431951D1CF830CC00F7E248 /* Sources */,
+				4431951E1CF830CC00F7E248 /* Frameworks */,
+				4431951F1CF830CC00F7E248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				443195231CF830CC00F7E248 /* PBXTargetDependency */,
+			);
+			name = NetworkLearnServeTests;
+			productName = NetworkLearnServeTests;
+			productReference = 443195211CF830CC00F7E248 /* NetworkLearnServeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4431952B1CF830CC00F7E248 /* NetworkLearnServeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4431953B1CF830CC00F7E248 /* Build configuration list for PBXNativeTarget "NetworkLearnServeUITests" */;
+			buildPhases = (
+				443195281CF830CC00F7E248 /* Sources */,
+				443195291CF830CC00F7E248 /* Frameworks */,
+				4431952A1CF830CC00F7E248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4431952E1CF830CC00F7E248 /* PBXTargetDependency */,
+			);
+			name = NetworkLearnServeUITests;
+			productName = NetworkLearnServeUITests;
+			productReference = 4431952C1CF830CC00F7E248 /* NetworkLearnServeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		443195001CF830CC00F7E248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iceman;
+				TargetAttributes = {
+					443195071CF830CC00F7E248 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					443195201CF830CC00F7E248 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 443195071CF830CC00F7E248;
+					};
+					4431952B1CF830CC00F7E248 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 443195071CF830CC00F7E248;
+					};
+				};
+			};
+			buildConfigurationList = 443195031CF830CC00F7E248 /* Build configuration list for PBXProject "NetworkLearnServe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 443194FF1CF830CC00F7E248;
+			productRefGroup = 443195091CF830CC00F7E248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				443195071CF830CC00F7E248 /* NetworkLearnServe */,
+				443195201CF830CC00F7E248 /* NetworkLearnServeTests */,
+				4431952B1CF830CC00F7E248 /* NetworkLearnServeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		443195061CF830CC00F7E248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4431951B1CF830CC00F7E248 /* LaunchScreen.storyboard in Resources */,
+				443195181CF830CC00F7E248 /* Assets.xcassets in Resources */,
+				443195161CF830CC00F7E248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4431951F1CF830CC00F7E248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4431952A1CF830CC00F7E248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		443195041CF830CC00F7E248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443195401CF8312900F7E248 /* ICENetWorkManager.m in Sources */,
+				443195131CF830CC00F7E248 /* ViewController.m in Sources */,
+				443195451CF8365600F7E248 /* IPManager.m in Sources */,
+				443195101CF830CC00F7E248 /* AppDelegate.m in Sources */,
+				4431950D1CF830CC00F7E248 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4431951D1CF830CC00F7E248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443195261CF830CC00F7E248 /* NetworkLearnServeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443195281CF830CC00F7E248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443195311CF830CC00F7E248 /* NetworkLearnServeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		443195231CF830CC00F7E248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 443195071CF830CC00F7E248 /* NetworkLearnServe */;
+			targetProxy = 443195221CF830CC00F7E248 /* PBXContainerItemProxy */;
+		};
+		4431952E1CF830CC00F7E248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 443195071CF830CC00F7E248 /* NetworkLearnServe */;
+			targetProxy = 4431952D1CF830CC00F7E248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		443195141CF830CC00F7E248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443195151CF830CC00F7E248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		443195191CF830CC00F7E248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4431951A1CF830CC00F7E248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		443195331CF830CC00F7E248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		443195341CF830CC00F7E248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		443195361CF830CC00F7E248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetworkLearnServe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ten..NetworkLearnServe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		443195371CF830CC00F7E248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetworkLearnServe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ten..NetworkLearnServe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		443195391CF830CC00F7E248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetworkLearnServeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ten..NetworkLearnServeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkLearnServe.app/NetworkLearnServe";
+			};
+			name = Debug;
+		};
+		4431953A1CF830CC00F7E248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetworkLearnServeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ten..NetworkLearnServeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkLearnServe.app/NetworkLearnServe";
+			};
+			name = Release;
+		};
+		4431953C1CF830CC00F7E248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetworkLearnServeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ten..NetworkLearnServeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetworkLearnServe;
+			};
+			name = Debug;
+		};
+		4431953D1CF830CC00F7E248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetworkLearnServeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ten..NetworkLearnServeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetworkLearnServe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		443195031CF830CC00F7E248 /* Build configuration list for PBXProject "NetworkLearnServe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443195331CF830CC00F7E248 /* Debug */,
+				443195341CF830CC00F7E248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443195351CF830CC00F7E248 /* Build configuration list for PBXNativeTarget "NetworkLearnServe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443195361CF830CC00F7E248 /* Debug */,
+				443195371CF830CC00F7E248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		443195381CF830CC00F7E248 /* Build configuration list for PBXNativeTarget "NetworkLearnServeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443195391CF830CC00F7E248 /* Debug */,
+				4431953A1CF830CC00F7E248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4431953B1CF830CC00F7E248 /* Build configuration list for PBXNativeTarget "NetworkLearnServeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4431953C1CF830CC00F7E248 /* Debug */,
+				4431953D1CF830CC00F7E248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 443195001CF830CC00F7E248 /* Project object */;
+}
