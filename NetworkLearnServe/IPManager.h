@@ -10,4 +10,6 @@
 
 @interface IPManager : NSObject
 
++ (NSString *)deviceIPAdress;
+
 @end
