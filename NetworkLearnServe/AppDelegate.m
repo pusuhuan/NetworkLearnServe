@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "IPManager.h"
+#import "Server.h"
 
 @interface AppDelegate ()
 
@@ -16,10 +17,12 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
-    
-    [IPManager deviceIPAdress];
-    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+//    Server *server = [[Server alloc] init];
+//    [server open];
+//    
+//    [IPManager deviceIPAdress];
     return YES;
 }
 
